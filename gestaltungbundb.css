@@ -1,0 +1,818 @@
+/*allg*/
+body {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1250px;
+	background-color: linen;
+	}
+
+html{
+	font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+	color:#393939;
+	}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -65px;
+    padding-bottom: -65px;
+}
+
+.titel {
+    font-family: Brush Script MT;
+    font-size: 80px;
+    text-align: center;
+    color: burlywood;
+    margin-bottom: -45px;
+    padding-bottom: -45px;
+}
+
+.back a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: burlywood;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 1000px;
+}
+
+.backlinks a {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: burlywood;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 55px; 
+}
+
+h1 {
+    color: #393939;
+    font-size: 25px;
+    font-family: Brush Script MT;
+    font-weight: bold;
+}
+
+
+h2 {
+    color: #393939;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; 
+}
+
+/*Starseite*/
+
+.lesezeicheneins {
+    color: tan;
+	flex-direction: row;
+	justify-content: center;
+	text-align:center;
+    margin-top: 45px;
+    margin-left: -30px;
+    word-spacing: 55px;
+}
+
+.lesezeicheneins a {
+    list-style-type: none;
+    font-size: 18px;
+    text-decoration: none;
+    color: tan;
+}
+
+.lesezeicheneins a em{
+    color: linen;
+}
+
+.lesezeichenzwei {
+    color: tan;
+	flex-direction: row;
+	justify-content: center;
+	text-align:center;
+    margin-top: 60px;
+    margin-right: -30px;
+    word-spacing: 55px;
+}
+
+.lesezeichenzwei a {
+    list-style-type: none;
+    font-size: 18px;
+    text-decoration: none;
+    color: tan;
+}
+
+.erstertitel {
+    font-family: Brush Script MT;
+    font-size: 100px;
+    text-align: center;
+    color: burlywood;
+}
+
+.titelbild {
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+.start {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 850px;
+    height: 620px;
+    width: 360px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: justify;
+}
+
+.klein {
+    font-size: 11px;
+    line-height: 140%;
+}
+.klein a {
+    text-decoration: none;
+    color: #393939;
+    font-size: 11px;
+    line-height: 140%;
+}
+
+.anschrift {
+    padding-top: 15px;
+    color: burlywood;
+    border-top: dotted;
+	flex-direction: column;
+	text-align:left;
+    line-height: 8px;
+}
+
+.anschrift a {
+	color: burlywood;
+    text-decoration: underline;
+}
+
+.kontakt {
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 380px;
+    color: burlywood;
+	flex-direction: column;
+	text-align:left;
+    line-height: 8px;
+}
+
+.kontakt a {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.zeiten {
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 730px;
+    color: burlywood;
+	flex-direction: column;
+	text-align:left;
+    line-height: 8px;
+}
+
+.zeiten a {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.impressum {
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 1155px;
+    color: burlywood;
+	flex-direction: column;
+	text-align:right;
+    line-height: 8px;
+}
+
+.impressum a {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+/*Team*/
+
+.Team {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.Team2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.Vorstellung1 {
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 750px;
+    height: 380px;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: justify;
+}
+
+.Vorstellung2 {
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 750px;
+    height: 220px;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: justify;
+}
+
+/*Zimmere & Räume & Garten*/
+
+.lesezeichen {
+    color: tan;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: double;
+    display: flex;
+	flex: auto;
+	flex-direction: column;
+	justify-content: center;
+	text-align:center;
+    word-spacing: 80px;
+}
+
+.lesezeichen a {
+    list-style-type: none;
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: none;
+    color: tan;
+}
+
+.Zimmerübersicht {
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Zimmerübersicht img {
+    margin: 20px;
+}
+
+.textzimmer {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 20px;
+    height: 260px;
+    width: 960px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: justify;
+}
+
+.textzimmer li{
+    list-style-type:"♥︎";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.textzimmer a {
+    color: #393939;
+    text-decoration: none;
+}
+
+.textzimmer1 {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 20px;
+    height: 350px;
+    width: 960px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: justify;
+}
+
+.textzimmer1 li{
+    list-style-type:"♥︎";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.textzimmer1 a {
+    color: #393939;
+    text-decoration: none;
+}
+
+.zimmerbilder {
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.zimmerbilder img {
+    margin: 15px;
+}
+
+.Zimmer {
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Zimmer img {
+    margin: 20px;
+}
+
+/*Lage*/
+
+.bilder {
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.bilder img {
+    padding-top: -20px;
+    margin: 15px;
+}
+
+.lagetext {
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 615px;
+    height: 305px;
+    width: 210px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: left;
+}
+
+.anschriftbox {
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 870px;
+    height: 305px;
+    width: 210px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: left;
+}
+
+.karte {
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.click {
+    padding-left: 5px;
+    padding-right: 5px;
+    border: dashed;
+    border-color: burlywood;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 220px
+}
+.click a{
+    text-decoration: none;
+    color: burlywood;
+    font-size: 16px;
+}
+
+.umgebung {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 20px;
+    height: 420px;
+    width: 960px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: justify;
+}
+
+.umgebung li{
+    list-style-type:"♥︎";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.umgebung a {
+    color: #393939;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/*Kalender*/
+.buchen {
+    background-image: url(images/buchen.jpg);
+    width: 1250px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1250px;
+    background-attachment: fixed;
+    margin-top: -7px;
+}
+
+h1 a {
+    color: #393939;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 a {
+    color: #393939;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+.tabelle {
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+table {
+    justify-content: center;
+    align-content: center;
+    background-color: burlywood;
+    border-collapse: collapse;
+    border: none;
+}
+thead tr {
+      background-color: #ac8053;
+}
+
+td {
+    text-align: left;
+    padding: 1em 2.5em;
+}
+
+th {
+    text-align: left;
+    padding: 1em 2.5em;
+}
+
+td em{
+    font-size: 10px;
+    color: saddlebrown;
+    margin-left: 16px;
+}
+
+.monat{
+    text-align: center;
+}
+
+.kalender {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 20px;
+    height: 650px;
+    width: 960px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: justify;
+}
+
+.kalender li{
+    list-style-type:"♥︎";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.kalender a {
+    color: #393939;
+    text-decoration: underline;
+}
+
+.kalender p a {
+    font-size: 20px;
+    font-style: italic, bold;
+    text-decoration: none;
+    color: burlywood;
+    margin-top: 10px;
+}
+
+.anfrage {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 20px;
+    height: 420px;
+    width: 960px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: justify;
+}
+
+.anfrage li{
+    list-style-type:"♡";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.anfrage a {
+    color: #393939;
+    text-decoration: underline;
+}
+
+.anfrage p a {
+    font-size: 20px;
+    font-style: italic, bold;
+    text-decoration: none;
+    color: burlywood;
+    margin-top: 10px;
+}
+
+/*Frühstück*/
+
+.zeit {
+    font-family: 'Courier New', Courier, monospace;
+    color: burlywood;
+    text-decoration: none;
+    margin-left: 560px;
+    margin-top: -35px;
+}
+
+.essen {
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.essen img {
+    margin: 20px;
+}
+
+.essen1 {
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 20px;
+    height: 360px;
+    width: 360px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: left;
+}
+
+.essen1 li{
+    list-style-type:"🐣";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.essen2 {
+    position: absolute;
+    margin-left: 645px;
+    margin-top: 20px;
+    height: 360px;
+    width: 360px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: left;
+}
+
+.essen2 li{
+    list-style-type:"🐥";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.weitereinfos {
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 420px;
+    height: 360px;
+    width: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: justify;
+}
+
+.weitereinfos li{
+    list-style-type:"♥︎";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+/*Angebote*/
+
+.angebotbild2 {
+    float: right;
+    margin-top: -160px;
+}
+
+.angebotbild3 {
+   margin-top: 475px;
+}
+
+
+.angebotbild4 {
+float: right;
+margin-top: -160px;
+}
+
+.toepfertext {
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 450px;
+    height: 320px;
+    width: 550px;
+    padding-left:40px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: left;
+}
+
+.toepfertext li {
+    list-style-type: "♡";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.toepfertext a {
+    text-decoration: none;
+    color: burlywood;
+    font-size: 15px;
+    margin-left: 40px;
+    line-height: 50px;
+}
+
+.backtext {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 190px;
+    height: 410px;
+    width: 550px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: left;
+}
+
+.backtext li {
+    list-style-type: "♡";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.backtext a {
+    text-decoration: none;
+    color: burlywood;
+    font-size: 15px;
+    margin-left: 40px;
+    line-height: 50px;
+}
+
+.yogatext {
+    position: absolute;
+    margin-top: -605px;
+    margin-left: 450px;
+    height: 290px;
+    width: 550px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: left;
+}
+
+.yogatext li {
+    list-style-type: "♡";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.yogatext a {
+    text-decoration: none;
+    color: burlywood;
+    font-size: 15px;
+    margin-left: 40px;
+    line-height: 50px;
+}
+
+.maltext {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 190px;
+    height: 330px;
+    width: 550px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    line-height: 120%;
+    text-align: left;
+}
+
+.maltext li {
+    list-style-type: "♡";
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.maltext a {
+    text-decoration: none;
+    color: burlywood;
+    font-size: 15px;
+    margin-left: 40px;
+    line-height: 50px;
+}
+
+.toepfern {
+    background-image: url(images/Toepfern/Toepferntitelbild2.jpg);
+    width: 1250px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1250px;
+    background-attachment: fixed;
+    margin-top: -7px;
+}
+
+.backen {
+    background-image: url(images/Backen/brot.jpg);
+    width: 1250px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1250px;
+    background-attachment: fixed;
+    margin-top: -7px;
+}
+
+.yoga {
+    background-image: url(images/Yoga/yoga6.jpg);
+    width: 1250px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1250px;
+    background-attachment: fixed;
+    margin-top: -7px;
+}
+
+.malen {
+    background-image: url(images/malen/malen6.jpg);
+    width: 1250px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1250px;
+    background-attachment: fixed;
+    margin-top: -7px;
+}
+
+/*Bewertung*/
+
+.bewertung p a {
+    margin-bottom: 45px;
+}
